@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import Home from './screens/home/Home';
-
+import Details from './screens/details/Details';
+import { Routes, Route, } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
     <BrowserRouter>
     <Routes>
         <Route path='/' element={<Home />} />
